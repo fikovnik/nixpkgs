@@ -16627,6 +16627,8 @@ with pkgs;
 
   xst = callPackage ../applications/misc/st/xst.nix { };
 
+  st-fikovnik = callPackage ../applications/misc/st/fikovnik.nix { };
+
   stag = callPackage ../applications/misc/stag {
     curses = ncurses;
   };
